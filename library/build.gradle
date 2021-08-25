@@ -5,7 +5,7 @@ ext {
     PUBLISH_ARTIFACT_ID = 'easyvideoplayer'
     PUBLISH_VERSION = '0.3.0'
     TARGET_SDK = 28
-    BUILD_TOOLS = "28.0.3"
+    BUILD_TOOLS = "30.0.2"
     GOOGLE_LIBS = "27.1.1"
 }
 
@@ -16,8 +16,6 @@ android {
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion TARGET_SDK
-        versionCode 15
-        versionName PUBLISH_VERSION
         vectorDrawables.useSupportLibrary = true
     }
     buildTypes {
