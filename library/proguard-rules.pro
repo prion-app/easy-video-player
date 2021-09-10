@@ -16,4 +16,5 @@
 #   public *;
 #}
 
+-renamesourcefileattribute SourceFile
 -keepattributes LineNumberTable,SourceFile
