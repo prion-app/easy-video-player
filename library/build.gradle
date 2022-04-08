@@ -11,7 +11,6 @@ ext {
 
 android {
     compileSdkVersion TARGET_SDK
-    buildToolsVersion BUILD_TOOLS
 
     defaultConfig {
         minSdkVersion 14
