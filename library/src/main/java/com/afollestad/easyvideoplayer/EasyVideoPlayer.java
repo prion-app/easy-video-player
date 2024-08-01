@@ -207,7 +207,7 @@ public class EasyVideoPlayer extends FrameLayout implements IUserMethods, Textur
                 mControlsDisabled = a.getBoolean(R.styleable.EasyVideoPlayer_evp_disableControls, false);
 
                 mThemeColor = a.getColor(R.styleable.EasyVideoPlayer_evp_themeColor,
-                        Util.resolveColor(context, R.attr.colorPrimary));
+                        Util.resolveColor(context, androidx.appcompat.R.attr.color));
 
                 mAutoFullscreen = a.getBoolean(R.styleable.EasyVideoPlayer_evp_autoFullscreen, false);
                 mLoop = a.getBoolean(R.styleable.EasyVideoPlayer_evp_loop, false);
@@ -220,7 +220,7 @@ public class EasyVideoPlayer extends FrameLayout implements IUserMethods, Textur
             mHideControlsOnPlay = true;
             mAutoPlay = false;
             mControlsDisabled = false;
-            mThemeColor = Util.resolveColor(context, R.attr.colorPrimary);
+            mThemeColor = Util.resolveColor(context, androidx.appcompat.R.attr.colorPrimary);
             mAutoFullscreen = false;
             mLoop = false;
         }
@@ -809,7 +809,7 @@ public class EasyVideoPlayer extends FrameLayout implements IUserMethods, Textur
         // Instantiate and add click frame (used to toggle controls)
         mClickFrame = new FrameLayout(getContext());
         //noinspection RedundantCast
-        ((FrameLayout) mClickFrame).setForeground(Util.resolveDrawable(getContext(), R.attr.selectableItemBackground));
+        ((FrameLayout) mClickFrame).setForeground(Util.resolveDrawable(getContext(), androidx.appcompat.R.attr.selectableItemBackground));
         addView(mClickFrame, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
                 ViewGroup.LayoutParams.MATCH_PARENT));
 

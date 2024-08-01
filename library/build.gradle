@@ -16,6 +16,7 @@ android {
         minSdkVersion 14
         targetSdkVersion TARGET_SDK
         vectorDrawables.useSupportLibrary = true
+        namespace = "com.afollestad.easyvideoplayer"
     }
     buildTypes {
         release {
