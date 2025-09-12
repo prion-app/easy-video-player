@@ -4,7 +4,7 @@ ext {
     PUBLISH_GROUP_ID = 'com.afollestad'
     PUBLISH_ARTIFACT_ID = 'easyvideoplayer'
     PUBLISH_VERSION = '0.3.0'
-    TARGET_SDK = 28
+    TARGET_SDK = 35
     BUILD_TOOLS = "30.0.2"
     GOOGLE_LIBS = "27.1.1"
 }
